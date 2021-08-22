@@ -1,7 +1,8 @@
 version: "3.9"
 
 services:
-  proxy:
+  app:
+    container_name: proxy_app
     image: jwilder/nginx-proxy
     restart: always
     ports:

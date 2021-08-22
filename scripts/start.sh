@@ -9,5 +9,5 @@ docker-compose down
 echo "Creation Docker 'proxy' network..."
 docker network create proxy
 
-echo "Starting Docker 'proxy' container..."
-docker-compose up -d proxy
+echo "Starting Docker 'app' container..."
+docker-compose up -d app
