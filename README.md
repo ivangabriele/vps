@@ -14,6 +14,12 @@ make start
 git remote add live ssh://<username>@<ip>/home/<username>/repositories/vps.git
 ```
 
+### VPS Setup
+
+```sh
+docker network create proxy
+```
+
 ### Deployment
 
 ```sh
